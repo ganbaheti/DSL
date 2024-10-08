@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced DSL Generator for Unit Testing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Unit Tests</h2>
+            <ul id="unitTestList"></ul>
+        </div>
+        <div class="main-content">
+            <div class="button-group">
+                <button id="addBtn">Add Unit Test</button>
+                <button id="deleteBtn">Delete Selected Test</button>
+                <button id="generateBtn">Generate DSL</button>
+                <button id="clearDSLBtn">Clear DSL</button>
+                <button id="editDSLBtn">Edit DSL</button>
+                <button id="exportDSLBtn">Export DSL</button>
+                <input type="file" id="importDSLBtn" />
+            </div>
+            <div id="unitTestDetail"></div>
+            <h2>Generated DSL</h2>
+            <pre id="dslOutput"></pre>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
